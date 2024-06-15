@@ -10,8 +10,9 @@
     <div class="container">
         <h1>Password Generator</h1>
         <h2 class="pass">Move Slider to Generate Password</h2>
+        
         <!-- <button class="btn" onclick="range()">Generate Password</button> -->
-        <input id="rangeinput" type="range" min="6" max="30">
+        <input onload="range()" id="rangeinput" type="range" min="6" max="30">
         <p>Length: <output id="value"></output></p>
         <p>Click on Button To Generate Password</p>
     </div>
